@@ -13,6 +13,7 @@
 - [Git branching](#git-branching)
 - [Git merge](#git-merge)
 - [Git undoing changes](#git-undoing-changes)
+  - [Git reset] (#git-reset)
   - [Git revert](#git-revert)
 - [Git update & publish](#git-update-&-publish)
 - [Gitignore](#gitignore)
@@ -74,6 +75,11 @@ git merge branch_name #merge branch_name
 
 # Git undoing changes
 [Git undoing changes](https://www.atlassian.com/git/tutorials/undoing-changes)
+
+## Git reset
+```bash
+git reset HEAD~1 --soft   #un-commit last not pushed git commit without losing the changes
+```
 
 ## Git revert 
 ```bash
