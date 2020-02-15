@@ -86,7 +86,7 @@ git reset HEAD~1 --soft   #un-commit last not pushed git commit without losing t
 git revert <SHA-of-commit-to-revert>
 ```
 
-#vGit update & publish
+# Git update & publish
 ```bash
 git fetch <remote> #download all changes from <remote> but do not integrate into HEAD
 git pull <remote> <branch> #download changes and integrate into HEAD
