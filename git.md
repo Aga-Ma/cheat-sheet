@@ -64,6 +64,7 @@ git branch #show branches list
 git branch <branch> master #creates <branch>
 git checkout <branch> #switch to <branch>
 git checkout -b <branch> #create and switch to <branch>
+git checkout - #switch to previous branch
 git branch -d new-branch #delete <branch> locally
 git push origin --delete <branch> #delete remote <branch>
 ```
