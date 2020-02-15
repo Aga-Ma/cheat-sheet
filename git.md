@@ -13,7 +13,7 @@
 - [Git branching](#git-branching)
 - [Git merge](#git-merge)
 - [Git undoing changes](#git-undoing-changes)
-  - [Git reset] (#git-reset)
+  - [Git reset](#git-reset)
   - [Git revert](#git-revert)
 - [Git update & publish](#git-update-&-publish)
 - [Gitignore](#gitignore)
