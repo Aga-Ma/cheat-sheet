@@ -3,9 +3,9 @@
 # Table of contents
 
 - [Git cheat sheet](#git-cheat-sheet)
-- [Table of content](#table-of-content)
+- [Table of content](#table-of-contents)
 - [Create](#create)
-- [Git config](#Git-config)
+- [Git config](#git-config)
 - [Git commit](#git-commit)
   - [Changing The Last Commit](#changing-the-last-commit)
 - [Git changes](#git-changes)
@@ -16,6 +16,7 @@
   - [Git reset](#git-reset)
   - [Git revert](#git-revert)
 - [Git update & publish](#git-update-&-publish)
+- [Git tags](#git-tags)
 - [Gitignore](#gitignore)
 - [Git collaborating](#git-collaborating)
 
@@ -92,6 +93,14 @@ git revert <SHA-of-commit-to-revert>
 git fetch <remote> #download all changes from <remote> but do not integrate into HEAD
 git pull <remote> <branch> #download changes and integrate into HEAD
 git push <remote> <branch> #publish local changes on a remote
+```
+
+# Git tags
+```bash
+git tag <tagname> #create a tag on your current branch
+git tag <tagname> -a #include description
+git push origin --tags #publish all tags
+git push origin <tag> #publish single tag
 ```
 
 # Gitignore
