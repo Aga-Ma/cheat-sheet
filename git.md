@@ -101,6 +101,8 @@ git tag <tagname> #create a tag on your current branch
 git tag <tagname> -a #include description
 git push origin --tags #publish all tags
 git push origin <tag> #publish single tag
+git tag -d <tag_name> #delete tag locally
+git push --delete origin tagname #delete a remote tag
 ```
 
 # Gitignore
