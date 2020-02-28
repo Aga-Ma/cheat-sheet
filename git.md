@@ -107,7 +107,7 @@ git push origin <tag> #publish single tag
 ```bash
 git status --porcelain | grep '^??' | cut -c4- >> .gitignore #permanently ignore currently untracked files
 # Note! in above command if you don't have a .gitignore file yet your gitignore will ignore itself!
-git ls-files --others --exclude-standard >> .gitignore` #add to .gitignore files listed in untracked files - works from repository root
+git ls-files --others --exclude-standard >> .gitignore #add to .gitignore files listed in untracked files - works from repository root
 ```
 
 # Git collaborating
